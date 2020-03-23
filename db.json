@@ -1,32 +1,14 @@
 {
-  "categories": [
-    { "id": 1, "name": "Phan Công Tài"},
-    { "id": 2, "name": "Lê Lợi" },
-    { "id": 4, "name": "Lê Thánh Tông" },
-    { "id": 5, "name": "Hoàng Diệu" },
-    { "id": 6, "name": "Phạm Ngũ Lão" },
-    { "id": 7, "name": "Trần Hưng Đạo" }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
-  "products": [
-    {
-      "id": 1,
-      "images": [
-        {
-          "url": "https://cdn1.vectorstock.com/i/1000x1000/77/05/bearded-coder-hacker-vector-17477705.jpg"
-        }
-      ],
-      "name": "Dân IT",
-      "price": "2000"
-    },
-    {
-      "id": 2,
-      "images": [
-        {
-          "url": "https://www.heritage.org/sites/default/files/styles/slide_cover_xl/public/images/2018-08/Economy.jpg"
-        }
-      ],
-      "name": "Dân kinh tế",
-      "price": "2500"
-    }
-  ]
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
