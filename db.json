@@ -1,28 +1,32 @@
 {
-  [
+  "categories": [
+    { "id": 1, "name": "Phan Công Tài"},
+    { "id": 2, "name": "Lê Lợi" },
+    { "id": 4, "name": "Lê Thánh Tông" },
+    { "id": 5, "name": "Hoàng Diệu" },
+    { "id": 6, "name": "Phạm Ngũ Lão" },
+    { "id": 7, "name": "Trần Hưng Đạo" }
+  ],
+  "products": [
     {
       "id": 1,
-      "name": "Phan Công Tài"
+      "images": [
+        {
+          "url": "https://cdn1.vectorstock.com/i/1000x1000/77/05/bearded-coder-hacker-vector-17477705.jpg"
+        }
+      ],
+      "name": "Dân IT",
+      "price": "2000"
     },
     {
       "id": 2,
-      "name": "Lê Lợi"
-    },
-    {
-      "id": 4,
-      "name": "Lê Thánh Tông"
-    },
-    {
-      "id": 5,
-      "name": "Hoàng Diệu"
-    },
-    {
-      "id": 6,
-      "name": "Phạm Ngũ Lão"
-    },
-    {
-      "id": 7,
-      "name": "Trần Hưng Đạo"
+      "images": [
+        {
+          "url": "https://www.heritage.org/sites/default/files/styles/slide_cover_xl/public/images/2018-08/Economy.jpg"
+        }
+      ],
+      "name": "Dân kinh tế",
+      "price": "2500"
     }
   ]
 }
