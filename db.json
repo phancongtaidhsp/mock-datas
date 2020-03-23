@@ -16,7 +16,8 @@
         }
       ],
       "name": "Dân IT",
-      "price": "2000"
+      "price": "2000",
+      "idCategory": 1
     },
     {
       "id": 2,
@@ -26,7 +27,8 @@
         }
       ],
       "name": "Dân kinh tế",
-      "price": "2500"
+      "price": "2500",
+      "idCategory": 2
     }
   ]
 }
